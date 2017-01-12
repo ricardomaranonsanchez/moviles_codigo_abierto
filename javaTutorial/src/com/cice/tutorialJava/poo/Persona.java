@@ -3,7 +3,7 @@ package com.cice.tutorialJava.poo;
 /*Esta será la primera clase que vamos a crear durante el curso,
  * no es absolutamente necesario que tenga un main, pero se lo he puesto porqueme aburro.*/
 
-public class Persona {
+public class Persona{
 
 	// un miembro de la clase es un atributo o un método.
 
@@ -65,9 +65,11 @@ public class Persona {
 	}
 	// métodos propios de la clase
 	
-	void print()
+	public void print()
 	{
 		System.out.println("Persona\n [Nombre : " + nombre + "]\n [Domicilio : " + domicilio + "]\n [Edad : "+ edad +" ]");	
 	}
+
+	
 
 }// cierre de la clase
